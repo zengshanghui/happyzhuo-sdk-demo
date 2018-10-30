@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    package="com.happyzhuo.sdk.demo">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="false"/>
+    <uses-permission android:name="android.permission.VIBRATE" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="60" tools:replace="android:maxSdkVersion"/>
+    <uses-permission android:name="com.android.vending.BILLING" android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.happyzhuo.sdk.securekey" android:value="Ue+sM7mV9Ehvu9jn+jQ1icUMeaugvgwqmgEjIsUCWAFh7U/RvewGOUN4HZEytaA6EUtGRrzdaBLzLG3Gsv0uBA46yB25AuGkoiqRftZhE/oNGr6onfGh8Ny98uGZOoEtUuCEWqr3mfGL0WPtiugI86Ts7Fnt9srOnE3NSXqKtidH2TexCtYtvkibHPtKTd3j8kaasfxgoKth9njXNGvQisiHmURWCP9IoEBsWB9fkcqC3dZxvpc9khj7nNUPIJQOJQxpK0UotDRjmKQnwHh4Fq4etsy3osw73OeP0Ebi+XbKMOMPxacl/xs9n97Bp28GzGhbBDoxZKl0Pctd8Y5NOuTpi9aE7fkGYxctQGBTygTrmfx8BlxduHcOnj/ZBKTIexj8NgMVv5DzblIif3UdqoqubsiDh/XrcfV/prmjcZ0sJDZuSGae6eiv6D0Pejm/zhXKmOsbpqj4+QyfxNYaP65ZjygJ5HTjiVCIf5kzARMVykgPjGvRJl3LgZQgM5GxCV9UezVR8LCxmNqyBaUfx6KF/FenxuekTPW4g7OxFh3kRjfamfXr683vOgnJ4x4WYn5aaGKsPBULvpdp/Ti6wEz3SbIbhJBxVacKC7ZUwPNhwF2HDg60cvn4uylrwbwd"/>
+        <meta-data android:name="com.happyzhuo.sdk.debug" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
