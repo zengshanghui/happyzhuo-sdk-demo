@@ -20,8 +20,7 @@ allprojects {
         google()
         maven { url 'https://maven.fabric.io/public' }
         maven { url "https://www.jitpack.io" }
-        //maven { url 'file://D:/repo/' }
-        flatDir { dirs 'libs' }
+        //flatDir { dirs 'libs' }
         jcenter()
     }
 }
